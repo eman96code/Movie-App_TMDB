@@ -1,0 +1,57 @@
+
+.backdropImg {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  z-index: -1;
+  top: 50px;
+}
+.movieDetails {
+  padding-top: 80px;
+  height: 300px;
+  color: white;
+}
+.movieDetails .container {
+  margin-block: 50px;
+}
+.details-img {
+  width: 20%;
+}
+.details-img img {
+  width: 100%;
+}
+.detailsText {
+  width: 78%;
+}
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+button {
+  line-height: 0;
+  height: fit-content;
+}
+.AddIcon {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  outline: none;
+}
+.FavoriteBorderIcon {
+  color: black;
+  background-color: white;
+}
+.vote {
+  width: 100px;
+  border-right: 1px solid black;
+}
+.bottom-section {
+  align-items: center;
+  margin-top: 50px;
+}
+.left-section {
+  color: black;
+}
+.status {
+  padding: 10px;
+}

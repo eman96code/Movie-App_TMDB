@@ -1,0 +1,25 @@
+.movies {
+  gap: 10px 10px;
+}
+.vote-average {
+  position: absolute;
+  background-color: #2695B0;
+  color: #fff;
+  padding: 5px;
+  right: 0;
+  width: 50px;
+  text-align: center;
+}
+.movie-card {
+  width: 23%;
+  position: relative;
+}
+.movie-card img {
+  width: 100%;
+}
+.movie-title {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
